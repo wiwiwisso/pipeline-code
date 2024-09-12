@@ -1,0 +1,11 @@
+pipline{
+    agent none 
+    stages{
+        stage('say hello'){
+            step{
+                 echo "hello you"
+            }
+           
+        }
+    }
+}
