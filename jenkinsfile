@@ -3,7 +3,7 @@ pipline{
     stages{
         stage('say hello'){
             steps{
-                 echo "hello you"
+                 echo 'hello you'
             }
            
         }
